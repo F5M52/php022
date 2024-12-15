@@ -8,7 +8,7 @@ if($page>1){
     echo "</a></li>";
 }
  
-// calculate total pages
+// calculate total pagess
 $total_pages = ceil($total_rows / $records_per_page);
  
 // range of links to show
